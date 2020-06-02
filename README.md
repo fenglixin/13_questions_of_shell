@@ -478,7 +478,7 @@ $ awk {print $0} 1.txt
 awk '{print $0}'
 ```
 上面的hard quote应好理解，就是将原来的
-{、<space>、$、}这几个shell meta关闭，
+{、\<space\>、$、}这几个shell meta关闭，
 避免掉在shell中遭到处理，而完整的成为awk的参数中command meta。
 
 > **Note:**
